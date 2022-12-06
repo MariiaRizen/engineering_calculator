@@ -11,6 +11,8 @@ def cosinus(number):
 
 
 def factorial(number):
+    if number < 0:
+        raise ValueError
     return math.factorial(number)
 
 
